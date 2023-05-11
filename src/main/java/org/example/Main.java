@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         mainMethodShowMessageAble();
         mainMethodShowInfo();
+        gitTask();
     }
 
     private static void mainMethodShowMessageAble() {
@@ -12,6 +13,10 @@ public class Main {
 
     private static void mainMethodShowInfo() {
         System.out.println("Lets learn Git ");
+    }
+
+    private static void gitTask() {
+        System.out.println("Git task");
     }
 
 }
